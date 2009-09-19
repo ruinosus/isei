@@ -31,3 +31,5 @@ G:\iSEI\iSEI\obj\Debug\ResolveAssemblyReference.cache
 G:\iSEI\iSEI\obj\Debug\iSEI.frmPlanilha.resources
 G:\iSEI\iSEI\obj\Debug\iSEI.Properties.Resources.resources
 G:\iSEI\iSEI\obj\Debug\iSEI.csproj.GenerateResource.Cache
+C:\isei\iSEI\obj\Debug\iSEI.exe
+C:\isei\iSEI\obj\Debug\iSEI.pdb
