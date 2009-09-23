@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{834B5F28-A984-42AD-84A6-C228CCB20C46}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -61,6 +61,12 @@
     <Compile Include="Componentes\AtributoSecundario.Designer.cs">
       <DependentUpon>AtributoSecundario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Componentes\BarraEvolucao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\BarraEvolucao.Designer.cs">
+      <DependentUpon>BarraEvolucao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Componentes\GrupoHabEditavel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -109,6 +115,9 @@
       <DependentUpon>AtributoSecundario.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\BarraEvolucao.resx">
+      <DependentUpon>BarraEvolucao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Componentes\GrupoHabEditavel.resx">
       <DependentUpon>GrupoHabEditavel.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -144,6 +153,12 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Resources\marcado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolinha_desmarcada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolinha_marcada.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
