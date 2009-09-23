@@ -33,3 +33,12 @@ G:\iSEI\iSEI\obj\Debug\iSEI.Properties.Resources.resources
 G:\iSEI\iSEI\obj\Debug\iSEI.csproj.GenerateResource.Cache
 C:\isei\iSEI\obj\Debug\iSEI.exe
 C:\isei\iSEI\obj\Debug\iSEI.pdb
+C:\isei\iSEI\bin\Debug\Planilha.xml
+C:\isei\iSEI\bin\Debug\iSEI.exe
+C:\isei\iSEI\bin\Debug\iSEI.pdb
+C:\isei\iSEI\bin\Debug\SEIControls.dll
+C:\isei\iSEI\bin\Debug\SEIControls.pdb
+C:\isei\iSEI\obj\Debug\ResolveAssemblyReference.cache
+C:\isei\iSEI\obj\Debug\iSEI.frmPlanilha.resources
+C:\isei\iSEI\obj\Debug\iSEI.Properties.Resources.resources
+C:\isei\iSEI\obj\Debug\iSEI.csproj.GenerateResource.Cache

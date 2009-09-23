@@ -24,3 +24,17 @@ G:\iSEI\SEIControls\obj\Debug\SEIControls.Atributo.resources
 G:\iSEI\SEIControls\obj\Debug\SEIControls.csproj.GenerateResource.Cache
 G:\iSEI\SEIControls\obj\Debug\SEIControls.dll
 G:\iSEI\SEIControls\obj\Debug\SEIControls.pdb
+C:\isei\SEIControls\bin\Debug\SEIControls.dll
+C:\isei\SEIControls\bin\Debug\SEIControls.pdb
+C:\isei\SEIControls\obj\Debug\ResolveAssemblyReference.cache
+C:\isei\SEIControls\obj\Debug\SEIControls.AtributoSecundario.resources
+C:\isei\SEIControls\obj\Debug\SEIControls.Componentes.BarraEvolucao.resources
+C:\isei\SEIControls\obj\Debug\SEIControls.Componentes.GrupoHabEditavel.resources
+C:\isei\SEIControls\obj\Debug\SEIControls.GrupoHabilitadores.resources
+C:\isei\SEIControls\obj\Debug\SEIControls.HabilitadorEspecializado.resources
+C:\isei\SEIControls\obj\Debug\SEIControls.HabilitadorGenerico.resources
+C:\isei\SEIControls\obj\Debug\SEIControls.Properties.Resources.resources
+C:\isei\SEIControls\obj\Debug\SEIControls.Atributo.resources
+C:\isei\SEIControls\obj\Debug\SEIControls.csproj.GenerateResource.Cache
+C:\isei\SEIControls\obj\Debug\SEIControls.dll
+C:\isei\SEIControls\obj\Debug\SEIControls.pdb

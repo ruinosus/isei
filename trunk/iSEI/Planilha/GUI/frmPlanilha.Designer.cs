@@ -38,7 +38,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.sfdSalvar = new System.Windows.Forms.SaveFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -108,9 +108,10 @@
             this.lblJogador = new System.Windows.Forms.Label();
             this.lblCampanha = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.sstProgresso = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.ofdAbrir = new System.Windows.Forms.OpenFileDialog();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -118,7 +119,7 @@
             this.panel3.SuspendLayout();
             this.pnlInformacoes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupElevacao)).BeginInit();
-            this.statusStrip1.SuspendLayout();
+            this.sstProgresso.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnMenu
@@ -1006,21 +1007,21 @@
             this.lblNome.TabIndex = 84;
             this.lblNome.Text = "Nome";
             // 
-            // statusStrip1
+            // sstProgresso
             // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sstProgresso.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.toolStripProgressBar1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 677);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1108, 26);
-            this.statusStrip1.TabIndex = 144;
-            this.statusStrip1.Text = "statusStrip1";
+            this.sstProgresso.Location = new System.Drawing.Point(0, 677);
+            this.sstProgresso.Name = "sstProgresso";
+            this.sstProgresso.Size = new System.Drawing.Size(1108, 26);
+            this.sstProgresso.TabIndex = 144;
+            this.sstProgresso.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 21);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(109, 21);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
             // toolStripProgressBar1
@@ -1028,12 +1029,16 @@
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
             this.toolStripProgressBar1.Size = new System.Drawing.Size(300, 20);
             // 
+            // ofdAbrir
+            // 
+            this.ofdAbrir.FileName = "openFileDialog1";
+            // 
             // frmPlanilha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1108, 703);
-            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.sstProgresso);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -1051,8 +1056,8 @@
             this.pnlInformacoes.ResumeLayout(false);
             this.pnlInformacoes.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupElevacao)).EndInit();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
+            this.sstProgresso.ResumeLayout(false);
+            this.sstProgresso.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1076,7 +1081,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.SaveFileDialog sfdSalvar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel4;
@@ -1128,7 +1133,7 @@
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.StatusStrip sstProgresso;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
         private System.Windows.Forms.ComboBox comboBox16;
@@ -1151,6 +1156,7 @@
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.OpenFileDialog ofdAbrir;
 
     }
 }

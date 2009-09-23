@@ -56,20 +56,20 @@ namespace iSEI
             data = elementoData.InnerText;
             elementoData.InnerText = "Elbert";
 
-            saveFileDialog1.AddExtension = true;
-            saveFileDialog1.Filter = "Arquivos iSEI (*.iSEI)|*.iSEI| Arquivos XML (*.xml)|*.xml|Todos os Arquivos (*.*)|*.*";
-            saveFileDialog1.DefaultExt = ".iSEI";
-            saveFileDialog1.ShowDialog();
-            string path = saveFileDialog1.FileName;
+            sfdSalvar.AddExtension = true;
+            sfdSalvar.Filter = "Arquivos iSEI (*.iSEI)|*.iSEI| Arquivos XML (*.xml)|*.xml|Todos os Arquivos (*.*)|*.*";
+            sfdSalvar.DefaultExt = ".iSEI";
+            sfdSalvar.ShowDialog();
+            string path = sfdSalvar.FileName;
             docXML.Save(path);
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {            
-            saveFileDialog1.ShowDialog();
+            sfdSalvar.ShowDialog();
 
-            string path = saveFileDialog1.FileName;           
+            string path = sfdSalvar.FileName;           
            
             XmlDocument docXML = new XmlDocument();
             docXML.Load("C:\\Elbert.xml");
