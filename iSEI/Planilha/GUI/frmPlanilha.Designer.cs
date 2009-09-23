@@ -40,7 +40,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.sfdSalvar = new System.Windows.Forms.SaveFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
             this.comboBox17 = new System.Windows.Forms.ComboBox();
@@ -63,6 +62,10 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.sstProgresso = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.ofdAbrir = new System.Windows.Forms.OpenFileDialog();
             this.grupoHabEditavel3 = new SEIControls.Componentes.GrupoHabEditavel();
             this.grupoHabEditavel2 = new SEIControls.Componentes.GrupoHabEditavel();
             this.grupoHabEditavel1 = new SEIControls.Componentes.GrupoHabEditavel();
@@ -108,18 +111,17 @@
             this.lblJogador = new System.Windows.Forms.Label();
             this.lblCampanha = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
-            this.sstProgresso = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
-            this.ofdAbrir = new System.Windows.Forms.OpenFileDialog();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.Evolucao = new SEIControls.Componentes.BarraEvolucao();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.sstProgresso.SuspendLayout();
             this.panel3.SuspendLayout();
             this.pnlInformacoes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupElevacao)).BeginInit();
-            this.sstProgresso.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnMenu
@@ -229,22 +231,14 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.panel5);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.pnlInformacoes);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Location = new System.Drawing.Point(114, -3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(995, 703);
+            this.panel1.Size = new System.Drawing.Size(995, 751);
             this.panel1.TabIndex = 143;
-            // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Location = new System.Drawing.Point(13, 855);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(949, 238);
-            this.panel5.TabIndex = 147;
             // 
             // panel4
             // 
@@ -269,7 +263,7 @@
             this.panel4.Controls.Add(this.comboBox3);
             this.panel4.Controls.Add(this.comboBox2);
             this.panel4.Controls.Add(this.comboBox1);
-            this.panel4.Location = new System.Drawing.Point(13, 690);
+            this.panel4.Location = new System.Drawing.Point(5, 688);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(949, 158);
             this.panel4.TabIndex = 146;
@@ -446,10 +440,36 @@
             this.panel2.Controls.Add(this.grupoHabilitadores15);
             this.panel2.Controls.Add(this.grupoHabilitadores11);
             this.panel2.Controls.Add(this.grupoHabilitadores10);
-            this.panel2.Location = new System.Drawing.Point(13, 296);
+            this.panel2.Location = new System.Drawing.Point(5, 294);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(949, 388);
             this.panel2.TabIndex = 145;
+            // 
+            // sstProgresso
+            // 
+            this.sstProgresso.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.toolStripProgressBar1});
+            this.sstProgresso.Location = new System.Drawing.Point(0, 750);
+            this.sstProgresso.Name = "sstProgresso";
+            this.sstProgresso.Size = new System.Drawing.Size(1108, 26);
+            this.sstProgresso.TabIndex = 144;
+            this.sstProgresso.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(109, 21);
+            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            // 
+            // toolStripProgressBar1
+            // 
+            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(300, 20);
+            // 
+            // ofdAbrir
+            // 
+            this.ofdAbrir.FileName = "openFileDialog1";
             // 
             // grupoHabEditavel3
             // 
@@ -607,10 +627,10 @@
             this.panel3.Controls.Add(this.atrResistencia);
             this.panel3.Controls.Add(this.atrDestreza);
             this.panel3.Controls.Add(this.atrForca);
-            this.panel3.Location = new System.Drawing.Point(13, 93);
+            this.panel3.Location = new System.Drawing.Point(5, 88);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(949, 197);
-            this.panel3.TabIndex = 144;
+            this.panel3.TabIndex = 149;
             // 
             // atributoSecundario7
             // 
@@ -811,10 +831,10 @@
             this.pnlInformacoes.Controls.Add(this.lblJogador);
             this.pnlInformacoes.Controls.Add(this.lblCampanha);
             this.pnlInformacoes.Controls.Add(this.lblNome);
-            this.pnlInformacoes.Location = new System.Drawing.Point(12, 9);
+            this.pnlInformacoes.Location = new System.Drawing.Point(5, 5);
             this.pnlInformacoes.Name = "pnlInformacoes";
             this.pnlInformacoes.Size = new System.Drawing.Size(949, 77);
-            this.pnlInformacoes.TabIndex = 143;
+            this.pnlInformacoes.TabIndex = 148;
             // 
             // cmbPersonalidade
             // 
@@ -1007,37 +1027,29 @@
             this.lblNome.TabIndex = 84;
             this.lblNome.Text = "Nome";
             // 
-            // sstProgresso
+            // panel5
             // 
-            this.sstProgresso.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
-            this.toolStripProgressBar1});
-            this.sstProgresso.Location = new System.Drawing.Point(0, 677);
-            this.sstProgresso.Name = "sstProgresso";
-            this.sstProgresso.Size = new System.Drawing.Size(1108, 26);
-            this.sstProgresso.TabIndex = 144;
-            this.sstProgresso.Text = "statusStrip1";
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.Evolucao);
+            this.panel5.Location = new System.Drawing.Point(7, 849);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(949, 178);
+            this.panel5.TabIndex = 151;
             // 
-            // toolStripStatusLabel1
+            // Evolucao
             // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(109, 21);
-            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-            // 
-            // toolStripProgressBar1
-            // 
-            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(300, 20);
-            // 
-            // ofdAbrir
-            // 
-            this.ofdAbrir.FileName = "openFileDialog1";
+            this.Evolucao.Location = new System.Drawing.Point(401, 77);
+            this.Evolucao.Name = "Evolucao";
+            this.Evolucao.Size = new System.Drawing.Size(305, 31);
+            this.Evolucao.TabIndex = 0;
+            this.Evolucao.Valor = 0;
+            this.Evolucao.ValorAtual = 0;
             // 
             // frmPlanilha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1108, 703);
+            this.ClientSize = new System.Drawing.Size(1108, 776);
             this.Controls.Add(this.sstProgresso);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.panel1);
@@ -1052,12 +1064,13 @@
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.sstProgresso.ResumeLayout(false);
+            this.sstProgresso.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.pnlInformacoes.ResumeLayout(false);
             this.pnlInformacoes.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupElevacao)).EndInit();
-            this.sstProgresso.ResumeLayout(false);
-            this.sstProgresso.PerformLayout();
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1083,7 +1096,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.SaveFileDialog sfdSalvar;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
         private SEIControls.Componentes.GrupoHabEditavel grupoHabEditavel3;
@@ -1095,6 +1107,32 @@
         private SEIControls.GrupoHabilitadores grupoHabilitadores15;
         private SEIControls.GrupoHabilitadores grupoHabilitadores11;
         private SEIControls.GrupoHabilitadores grupoHabilitadores10;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.StatusStrip sstProgresso;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.ComboBox comboBox17;
+        private System.Windows.Forms.ComboBox comboBox18;
+        private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.ComboBox comboBox20;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.OpenFileDialog ofdAbrir;
         private System.Windows.Forms.Panel panel3;
         private SEIControls.AtributoSecundario atributoSecundario7;
         private SEIControls.Atributo atrAmago;
@@ -1131,32 +1169,8 @@
         private System.Windows.Forms.Label lblJogador;
         private System.Windows.Forms.Label lblCampanha;
         private System.Windows.Forms.Label lblNome;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.StatusStrip sstProgresso;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
-        private System.Windows.Forms.ComboBox comboBox16;
-        private System.Windows.Forms.ComboBox comboBox17;
-        private System.Windows.Forms.ComboBox comboBox18;
-        private System.Windows.Forms.ComboBox comboBox19;
-        private System.Windows.Forms.ComboBox comboBox20;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.OpenFileDialog ofdAbrir;
+        private System.Windows.Forms.Panel panel5;
+        private SEIControls.Componentes.BarraEvolucao Evolucao;
 
     }
 }

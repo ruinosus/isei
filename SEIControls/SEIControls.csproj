@@ -155,10 +155,10 @@
     <None Include="Resources\marcado.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bolinha_desmarcada.png" />
+    <None Include="Resources\bola.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bolinha_marcada.png" />
+    <None Include="Resources\bolaM.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
