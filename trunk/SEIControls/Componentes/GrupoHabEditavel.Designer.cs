@@ -457,7 +457,7 @@
             this.panel6.Controls.Add(this.pictureBox15);
             this.panel6.Location = new System.Drawing.Point(2, 96);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(291, 19);
+            this.panel6.Size = new System.Drawing.Size(291, 20);
             this.panel6.TabIndex = 29;
             // 
             // comboBox6
@@ -526,7 +526,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "GrupoHabEditavel";
-            this.Size = new System.Drawing.Size(294, 114);
+            this.Size = new System.Drawing.Size(294, 116);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nivel5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nivel4)).EndInit();

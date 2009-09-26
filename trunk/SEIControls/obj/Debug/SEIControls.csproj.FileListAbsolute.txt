@@ -38,3 +38,4 @@ C:\isei\SEIControls\obj\Debug\SEIControls.Atributo.resources
 C:\isei\SEIControls\obj\Debug\SEIControls.csproj.GenerateResource.Cache
 C:\isei\SEIControls\obj\Debug\SEIControls.dll
 C:\isei\SEIControls\obj\Debug\SEIControls.pdb
+C:\isei\SEIControls\obj\Debug\SEIControls.Componentes.Energia.resources
