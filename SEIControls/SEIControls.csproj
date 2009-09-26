@@ -67,6 +67,12 @@
     <Compile Include="Componentes\BarraEvolucao.Designer.cs">
       <DependentUpon>BarraEvolucao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Componentes\Energia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Componentes\Energia.Designer.cs">
+      <DependentUpon>Energia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Componentes\GrupoHabEditavel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Componentes\BarraEvolucao.resx">
       <DependentUpon>BarraEvolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\Energia.resx">
+      <DependentUpon>Energia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Componentes\GrupoHabEditavel.resx">
       <DependentUpon>GrupoHabEditavel.cs</DependentUpon>
