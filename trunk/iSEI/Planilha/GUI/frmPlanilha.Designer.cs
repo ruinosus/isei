@@ -82,9 +82,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.ofdAbrir = new System.Windows.Forms.OpenFileDialog();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.energia2 = new SEIControls.Componentes.Energia();
-            this.energia1 = new SEIControls.Componentes.Energia();
-            this.Evolucao = new SEIControls.Componentes.BarraEvolucao();
             this.atributoSecundario7 = new SEIControls.AtributoSecundario();
             this.atrAmago = new SEIControls.Atributo();
             this.atrImunidade = new SEIControls.Atributo();
@@ -736,40 +733,10 @@
             this.panel5.Controls.Add(this.textBox1);
             this.panel5.Controls.Add(this.label1);
             this.panel5.Controls.Add(this.grupoHabEditavel4);
-            this.panel5.Controls.Add(this.energia2);
-            this.panel5.Controls.Add(this.energia1);
-            this.panel5.Controls.Add(this.Evolucao);
             this.panel5.Location = new System.Drawing.Point(7, 855);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(950, 310);
             this.panel5.TabIndex = 151;
-            // 
-            // energia2
-            // 
-            this.energia2.Location = new System.Drawing.Point(313, 271);
-            this.energia2.Name = "energia2";
-            this.energia2.Nome = null;
-            this.energia2.Size = new System.Drawing.Size(307, 27);
-            this.energia2.TabIndex = 133;
-            this.energia2.Valor = 0;
-            // 
-            // energia1
-            // 
-            this.energia1.Location = new System.Drawing.Point(313, 192);
-            this.energia1.Name = "energia1";
-            this.energia1.Nome = null;
-            this.energia1.Size = new System.Drawing.Size(307, 27);
-            this.energia1.TabIndex = 132;
-            this.energia1.Valor = 0;
-            // 
-            // Evolucao
-            // 
-            this.Evolucao.Location = new System.Drawing.Point(313, 107);
-            this.Evolucao.Name = "Evolucao";
-            this.Evolucao.Size = new System.Drawing.Size(305, 31);
-            this.Evolucao.TabIndex = 0;
-            this.Evolucao.Valor = 0;
-            this.Evolucao.ValorAtual = 0;
             // 
             // atributoSecundario7
             // 
@@ -1385,9 +1352,6 @@
         private System.Windows.Forms.Label lblCampanha;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Panel panel5;
-        private SEIControls.Componentes.Energia energia2;
-        private SEIControls.Componentes.Energia energia1;
-        private SEIControls.Componentes.BarraEvolucao Evolucao;
         private SEIControls.Componentes.GrupoHabEditavel grupoHabEditavel4;
         private SEIControls.Componentes.GrupoHabEditavel grupoHabEditavel3;
         private SEIControls.Componentes.GrupoHabEditavel grupoHabEditavel2;

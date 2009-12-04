@@ -61,18 +61,6 @@
     <Compile Include="Componentes\AtributoSecundario.Designer.cs">
       <DependentUpon>AtributoSecundario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Componentes\BarraEvolucao.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Componentes\BarraEvolucao.Designer.cs">
-      <DependentUpon>BarraEvolucao.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Componentes\Energia.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Componentes\Energia.Designer.cs">
-      <DependentUpon>Energia.cs</DependentUpon>
-    </Compile>
     <Compile Include="Componentes\GrupoHabEditavel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -121,12 +109,6 @@
       <DependentUpon>AtributoSecundario.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Componentes\BarraEvolucao.resx">
-      <DependentUpon>BarraEvolucao.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Componentes\Energia.resx">
-      <DependentUpon>Energia.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Componentes\GrupoHabEditavel.resx">
       <DependentUpon>GrupoHabEditavel.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -162,12 +144,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Resources\marcado.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bolaM.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
