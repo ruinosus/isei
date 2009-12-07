@@ -5,11 +5,15 @@ using System.Text;
 
 namespace iSEI.Planilha.VOs
 {
-    public class Atributo
+    class GrupoAtributosMentais
     {
         public string nome { get; set; }
+
         public int valor { get; set; }
-        public string descricao { get; set; }
+
+        public Atributo intelecto { get; set; }
+        public Atributo influencia { get; set; }
+        public Atributo percepcao { get; set; }
 
     }
 }

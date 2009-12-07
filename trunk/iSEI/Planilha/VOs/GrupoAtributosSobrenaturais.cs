@@ -5,11 +5,15 @@ using System.Text;
 
 namespace iSEI.Planilha.VOs
 {
-    public class Atributo
+    class GrupoAtributosSobrenaturais
     {
         public string nome { get; set; }
+
         public int valor { get; set; }
-        public string descricao { get; set; }
+
+        public Atributo elo { get; set; }
+        public Atributo amago { get; set; }
+        public Atributo imunidade { get; set; }
 
     }
 }
