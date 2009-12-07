@@ -5,12 +5,13 @@ using System.Text;
 
 namespace iSEI.Planilha.VOs
 {
-    class Equipamento
-    {
-        private string tipo;
-        private string pente;
-        private string alcance;
-        private string ocultabilidade;
-        private string ajuste;
+    public class Equipamento
+    {        
+        public string tipo { get; set; }
+        public string pente { get; set; }
+        public string alcance { get; set; }
+        public string tamanho { get; set; }
+        public string ajuste { get; set; }
+        public string descricao { get; set; }
     }
 }

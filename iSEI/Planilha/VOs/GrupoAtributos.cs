@@ -2,33 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Documents;
 
 namespace iSEI.Planilha.VOs
 {
-    class GrupoAtributos
+    public class GrupoAtributos
     {
-        private string nome;
-        private Atributo atr1;
+        public string nome { get; set; }
+        public int valor { get; set; }
+        public string descricao { get; set; }
 
-        internal Atributo Atr1
-        {
-            get { return atr1; }
-            set { atr1 = value; }
+        public Atributo primeiroAtributo { get; set; }
+        public Atributo segundoAtributo { get; set; }
+        public Atributo terceiroAtributo { get; set; }
+
+        public GrupoAtributos()
+        {         
         }
-        private Atributo atr2;
-
-        internal Atributo Atr2
-        {
-            get { return atr2; }
-            set { atr2 = value; }
-        }
-        private Atributo atr3;
-
-        internal Atributo Atr3
-        {
-            get { return atr3; }
-            set { atr3 = value; }
-        }
-
     }
 }

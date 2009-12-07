@@ -5,11 +5,11 @@ using System.Text;
 
 namespace iSEI.Planilha.VOs
 {
-    public class Atributo
+    class GrupoHabilitadores
     {
         public string nome { get; set; }
-        public int valor { get; set; }
-        public string descricao { get; set; }
+
+        public List<Habilitador> habilitador { get; set; }
 
     }
 }

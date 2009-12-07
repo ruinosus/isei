@@ -3,7 +3,6 @@ C:\Users\OBSCURUS\Desktop\iSEI\iSEI\bin\Debug\iSEI.pdb
 C:\Users\OBSCURUS\Desktop\iSEI\iSEI\bin\Debug\SEIControls.dll
 C:\Users\OBSCURUS\Desktop\iSEI\iSEI\bin\Debug\SEIControls.pdb
 C:\Users\OBSCURUS\Desktop\iSEI\iSEI\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\OBSCURUS\Desktop\iSEI\iSEI\obj\Debug\iSEI.frmPlanilha.resources
 C:\Users\OBSCURUS\Desktop\iSEI\iSEI\obj\Debug\iSEI.Properties.Resources.resources
 C:\Users\OBSCURUS\Desktop\iSEI\iSEI\obj\Debug\iSEI.csproj.GenerateResource.Cache
 C:\Users\OBSCURUS\Desktop\iSEI\iSEI\obj\Debug\iSEI.exe
@@ -42,3 +41,4 @@ C:\isei\iSEI\obj\Debug\ResolveAssemblyReference.cache
 C:\isei\iSEI\obj\Debug\iSEI.frmPlanilha.resources
 C:\isei\iSEI\obj\Debug\iSEI.Properties.Resources.resources
 C:\isei\iSEI\obj\Debug\iSEI.csproj.GenerateResource.Cache
+C:\Users\Obscurus\Desktop\isei\iSEI\obj\Debug\iSEI.Planilha.GUI.frmPrincipal.resources

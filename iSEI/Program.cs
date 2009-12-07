@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using iSEI.Planilha.GUI;
 
 namespace iSEI
 {
@@ -15,7 +16,7 @@ namespace iSEI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPlanilha()); 
+            Application.Run(new frmPrincipal()); 
 
 
         }
