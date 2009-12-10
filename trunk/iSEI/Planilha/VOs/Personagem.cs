@@ -22,6 +22,8 @@ namespace iSEI.Planilha
         public int energiaVital { get; set; }
         public string preludio { get; set; }
         public Image foto { get; set; }
+        private Saude saude { get; set; }
+        private OutrasCaracteristicas outrasCaracteristicas { get; set; }
 
         public GrupoAtributos grupoAtributosFisicos { get; set; }
         public GrupoAtributos grupoAtributosMentais { get; set; }
@@ -31,9 +33,6 @@ namespace iSEI.Planilha
         public GrupoHabilitadores grupoHabilitadoresMentais { get; set; }
         public GrupoHabilitadores grupoHabilitadoresSobrenaturais { get; set; }
 
-        private Saude saude { get; set; }
-
-        private OutrasCaracteristicas outrasCaracteristicas { get; set; }
 
         public Personagem()
         {

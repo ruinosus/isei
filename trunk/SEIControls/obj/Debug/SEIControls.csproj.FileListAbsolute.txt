@@ -3,7 +3,6 @@ C:\Users\OBSCURUS\Desktop\iSEI\SEIControls\bin\Debug\SEIControls.pdb
 C:\Users\OBSCURUS\Desktop\iSEI\SEIControls\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\OBSCURUS\Desktop\iSEI\SEIControls\obj\Debug\SEIControls.AtributoSecundario.resources
 C:\Users\OBSCURUS\Desktop\iSEI\SEIControls\obj\Debug\SEIControls.GrupoHabilitadores.resources
-C:\Users\OBSCURUS\Desktop\iSEI\SEIControls\obj\Debug\SEIControls.HabilitadorEspecializado.resources
 C:\Users\OBSCURUS\Desktop\iSEI\SEIControls\obj\Debug\SEIControls.HabilitadorGenerico.resources
 C:\Users\OBSCURUS\Desktop\iSEI\SEIControls\obj\Debug\SEIControls.Properties.Resources.resources
 C:\Users\OBSCURUS\Desktop\iSEI\SEIControls\obj\Debug\SEIControls.Atributo.resources
@@ -39,3 +38,4 @@ C:\isei\SEIControls\obj\Debug\SEIControls.csproj.GenerateResource.Cache
 C:\isei\SEIControls\obj\Debug\SEIControls.dll
 C:\isei\SEIControls\obj\Debug\SEIControls.pdb
 C:\isei\SEIControls\obj\Debug\SEIControls.Componentes.Energia.resources
+C:\Users\Obscurus\Desktop\isei\SEIControls\obj\Debug\SEIControls.HabilitadorEspecializado.resources

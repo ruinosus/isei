@@ -79,11 +79,17 @@
     <Compile Include="Componentes\Habilitadores.Designer.cs">
       <DependentUpon>HabilitadorGenerico.cs</DependentUpon>
     </Compile>
-    <Compile Include="Componentes\HabilitadorEspecializado.cs">
+    <Compile Include="Componentes\Especializacao.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Componentes\HabilitadorEspecializado.Designer.cs">
-      <DependentUpon>HabilitadorEspecializado.cs</DependentUpon>
+    <Compile Include="Componentes\Especializacao.Designer.cs">
+      <DependentUpon>Especializacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EspecializacaoEditavel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EspecializacaoEditavel.Designer.cs">
+      <DependentUpon>EspecializacaoEditavel.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -117,13 +123,16 @@
       <DependentUpon>GrupoHabilitadores.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Componentes\HabilitadorEspecializado.resx">
-      <DependentUpon>HabilitadorEspecializado.cs</DependentUpon>
+    <EmbeddedResource Include="Componentes\Especializacao.resx">
+      <DependentUpon>Especializacao.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Componentes\HabilitadorGenerico.resx">
       <DependentUpon>HabilitadorGenerico.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EspecializacaoEditavel.resx">
+      <DependentUpon>EspecializacaoEditavel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -144,6 +153,12 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Resources\marcado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolaDesmarcada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolaMarcada.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
