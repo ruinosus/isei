@@ -60,6 +60,20 @@ namespace SEIControls.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap bolaDesmarcada {
+            get {
+                object obj = ResourceManager.GetObject("bolaDesmarcada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap bolaMarcada {
+            get {
+                object obj = ResourceManager.GetObject("bolaMarcada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap desmarcado {
             get {
                 object obj = ResourceManager.GetObject("desmarcado", resourceCulture);

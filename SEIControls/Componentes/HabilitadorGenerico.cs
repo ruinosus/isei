@@ -92,6 +92,34 @@ namespace SEIControls
             }
         }
 
+        public void CarregarNivelEspecializacao(int valor)
+        {
+            switch (valor)
+            {
+                case 1:
+                    nivel1.Image = SEIControls.Properties.Resources.marcado;
+                    nivel2.Image = SEIControls.Properties.Resources.desmarcado;
+                    nivel3.Image = SEIControls.Properties.Resources.desmarcado;
+                    break;
+                case 2:
+                    nivel1.Image = SEIControls.Properties.Resources.marcado;
+                    nivel2.Image = SEIControls.Properties.Resources.marcado;
+                    nivel3.Image = SEIControls.Properties.Resources.desmarcado;
+                    break;
+
+                case 3:
+                    nivel1.Image = SEIControls.Properties.Resources.marcado;
+                    nivel2.Image = SEIControls.Properties.Resources.marcado;
+                    nivel3.Image = SEIControls.Properties.Resources.marcado;
+                    break;
+                default:
+                    nivel1.Image = SEIControls.Properties.Resources.desmarcado;
+                    nivel2.Image = SEIControls.Properties.Resources.desmarcado;
+                    nivel3.Image = SEIControls.Properties.Resources.desmarcado;
+                    break;
+            }
+        }
+
         
 
         private void Habilitadores_Load(object sender, EventArgs e)
