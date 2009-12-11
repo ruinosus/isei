@@ -88,7 +88,7 @@
             this.panel1.Controls.Add(this.nivel1);
             this.panel1.Controls.Add(this.nivel3);
             this.panel1.Controls.Add(this.nivel2);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(-1, -1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(232, 25);
             this.panel1.TabIndex = 27;
@@ -108,7 +108,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Name = "EspecializacaoEditavel";
-            this.Size = new System.Drawing.Size(268, 34);
+            this.Size = new System.Drawing.Size(230, 23);
             ((System.ComponentModel.ISupportInitialize)(this.nivel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nivel3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nivel2)).EndInit();

@@ -51,9 +51,9 @@
             this.panel1.Controls.Add(this.nivel3);
             this.panel1.Controls.Add(this.nivel2);
             this.panel1.Controls.Add(this.nivel1);
-            this.panel1.Location = new System.Drawing.Point(2, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(291, 21);
+            this.panel1.Size = new System.Drawing.Size(291, 20);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
